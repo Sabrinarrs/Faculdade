@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+    <div  style="text-align: right;"
+    id="header">
+       
+        <h1> <em> Cadastro Pessoal</em></h1>
+        
+
+        <figure>
+        
+            <img src="https://cakeerp.com/wp-content/uploads/2019/07/105931-OMRDEK-911-01-1080x675.jpg" alt="icone de cadastro">
+        </figure>
+    </div>
+
+    <form action="" method="post">
+
+
+        <fieldset id="dados-pessoais">
+            <em>
+            <strong>Dados Pessoais<strong>
+            
+                <table>
+             <tr>  
+               <td> <label for="Nome"> Nome: </label></td>
+               <td><label for="Email" id="email"> Email: </label></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="Nome" id="Nome"></td>
+                <td><input type="Email" name="Email" id="Email"></td>
+            </tr>   
+
+            <tr>
+                <td><label for="RG"> RG: </label></td>
+                <td><label for="CPF"> CPF: </label></td>
+             </tr>
+
+            <tr>
+                <td><input type="number" name="RG" id="number"></td>
+                <td><input type="number" name="CPF" id="number"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Nascimento"> Data de Nascimento: </label></td>
+            </tr>
+
+            <tr> 
+                <td><input type="date" name="Nascimento" id="date"></td>
+            </tr>
+                </p>
+            </em>
+            </p>
+        </table>
+
+        </fieldset>
+
+        <br>
+
+
+        <fieldset id="Endereço">
+            <strong>Endereço<strong>
+            <em>
+                <table>
+            <tr>
+                <td><label for="Rua"> Rua: </label></td>
+                <td><label for="numero"> Número:</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="Rua" name="Rua" id="Rua"></td>
+                <td><input type="number" name="numero" id="numero"></td>
+            </tr>
+
+            <p>
+            <tr>
+                <td><label for="Bairro"> Bairro: </label></td>
+                <td><label for="CEP"> CEP: </label></td>
+            </tr>
+
+            <tr>
+                <td><input type="Bairro" name="Bairro" id="Bairro"></td>
+                <td><input type="number" name="CEP" id="number"></td>
+                </p>
+            </tr>
+
+
+            <p>
+            <tr>
+                <td><label for="Cidade"> Cidade: </label></td>
+                <td><label for="Estado"> UF: </label></td>
+            </tr>
+
+            <tr>
+                    <td><input type="Cidade" name="Cidade" id="Cidade"></td>
+                    <td><select name="Estado">
+                        <option value="AC"> Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piuí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                       
+                       
+                        
+                       
+                        
+                        
+                       
+                      
+                        
+                       
+                       
+                       
+                         
+                        
+                        
+                        
+                    </select></td>
+            </em>
+            </p>
+            </tr>
+            </table>
+        </fieldset>
+        <br>
+        
+        <fieldset id="login">
+            <strong>Login</strong>
+            <em>
+                <br>
+                <p>
+
+                <label for="Imagem de Perfil"> Imagem de Perfil : </label>
+                <input type="file" value="Selecionar Arquivo " id="Botão Selecionar Arquivo">
+                <br>
+            </p>
+                
+                
+            <table>
+                <tr>
+                    <td><label for="Usuário"> Login de Usuário: </label></td>
+                    <td><label for="password"> Senha: </label></td>
+                    <td><label for="Confirmar senha"> Confirmar senha: </label></td>
+                </tr>
+
+                <tr>
+                    <td><input type="login de usuário" name="login de usuario" id="login de usuário"></td>
+                    <td><input type="password" name="password" id="password"></td>
+                    <td><input type="password" name="Confirmar senha" id="password"></td>
+                </tr>
+            </em>
+            </table>
+
+        </fieldset>
+        <br>
+
+        <input type="Submit" value="Enviar" id="Botão enviar Dados">
+        <input type="reset" value="Limpar" id="Botão limpar">
+
+
+
+    </form>
+</body>
+
+</html>

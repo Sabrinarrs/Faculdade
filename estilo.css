@@ -1,0 +1,40 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#dados-pessoais{
+    background-color: rgb(160, 190, 235);
+}
+
+#Endereço{
+    background-color: rgb(160, 190, 235);
+}
+#login{
+    background-color: rgb(160, 190, 235);
+}
+
+.funco-escuro{
+    background-color: rgb(255, 254, 254);
+}
+
+#DadosPessoais{
+    
+    text-transform: lowercase; /* deixa tudo em MINUSCULO  */
+    font-weight: bold;
+    text-transform: uppercase; /* deixa tudo em maiusculo  */
+}
+
+img{
+    width: 200px; /* largura */
+    /* height: 100px; */ /* altura */
+}
+
+form{
+    padding:    0 70px;
+}
+h1{
+    margin-left: 70px;
+}
